@@ -19,7 +19,8 @@
         padding-left: 0rem;
     }
 }
-@media(max-width:524px){
+@media(max-width:522px){
+
 
 }
 .about-section-img{
@@ -30,4 +31,8 @@
 }
 .about-conten{
     text-align: justify;
+}
+.card-img-top{
+    width: 100%;
+    height: auto;
 }
