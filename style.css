@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-section{
+    padding: 15rem 0rem;
+}
+.nav-title{
+    padding-left:10rem;
+}
+.menu-section ul{
+    padding-left: 32rem;
+}
+@media(max-width:990px){
+    .nav-title{
+        padding-left: 2rem;
+    }
+    .menu-section ul{
+        padding-left: 0rem;
+    }
+}
+@media(max-width:524px){
+
+}
+.about-section-img{
+    /* padding-left: 5rem; */
+}
+.about-section-content{
+    padding-top: 6rem;
+}
+.about-conten{
+    text-align: justify;
+}
