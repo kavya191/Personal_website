@@ -36,6 +36,7 @@
     width: 100%;
     height: auto;
 }
+
 /* sills */
 .progress{
     height: 15px;
@@ -59,16 +60,23 @@
 }
 /*  */
 .service-section{
-    border: 1px solid;
+    border: 1px solid white;
     transition: all 0.5s ease;
     width: 350px;
     padding:10px ;
-    
-
-
-   
 } 
 .service-section:hover{
     transform:scale(1.0) ;
+    box-shadow:1px 2px 10px black ; 
+  
+}
+
+.nav-head{
+    transition: all 0.5s ease;
+}
+.nav-head:hover{
+    transform:scale(1.0) ;
     box-shadow:1px 2px 10px  ;
 }
+
+
